@@ -16,10 +16,10 @@ mix.js("resources/js/app.js", "public/js").sass(
     "public/css"
 );
 
-// mix.combine(
-//     ["resources/js/main.js", "resources/vendor/*/*.js"],
-//     "public/js/combined.js"
-// );
+mix.combine(
+    ["resources/js/main.js", "resources/vendor/*/*.js"],
+    "public/js/combined.js"
+);
 
 mix.combine(
     [
