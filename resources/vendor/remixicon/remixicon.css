@@ -1,6 +1,6 @@
 /*
 * Remix Icon v2.4.0
-* https://../fonts/remixicon.com
+* https://remixicon.com
 * https://github.com/Remix-Design/RemixIcon
 *
 * Copyright RemixIcon.com
@@ -9,20 +9,22 @@
 * Date: 2020-04-20
 */
 @font-face {
-    font-family: "../fonts/remixicon";
-    src: url("../fonts/remixicon.eot?t=1587359857360"); /* IE9*/
-    src: url("../fonts/remixicon.eot?t=1587359857360#iefix") format("embedded-opentype"),
-        /* IE6-IE8 */ url("../fonts/remixicon.woff2?t=1587359857360") format("woff2"),
-        url("../fonts/remixicon.woff?t=1587359857360") format("woff"),
-        url("../fonts/remixicon.ttf?t=1587359857360") format("truetype"),
+    font-family: "remixicon";
+    src: url("/fonts/remixicon.eot?t=1587359857360"); /* IE9*/
+    src: url("/fonts/remixicon.eot?t=1587359857360#iefix")
+            format("embedded-opentype"),
+        /* IE6-IE8 */ url("/fonts/remixicon.woff2?t=1587359857360")
+            format("woff2"),
+        url("/fonts/remixicon.woff?t=1587359857360") format("woff"),
+        url("/fonts/remixicon.ttf?t=1587359857360") format("truetype"),
         /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-            url("../fonts/remixicon.svg?t=1587359857360#../fonts/remixicon") format("svg"); /* iOS 4.1- */
+            url("/fonts/remixicon.svg?t=1587359857360#remixicon") format("svg"); /* iOS 4.1- */
     font-display: swap;
 }
 
 [class^="ri-"],
 [class*=" ri-"] {
-    font-family: "../fonts/remixicon" !important;
+    font-family: "remixicon" !important;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -4735,10 +4737,10 @@
 .ri-registered-line:before {
     content: "\f00f";
 }
-.ri-../fonts/remixicon-fill:before {
+.ri-remixicon-fill:before {
     content: "\f010";
 }
-.ri-../fonts/remixicon-line:before {
+.ri-remixicon-line:before {
     content: "\f011";
 }
 .ri-remote-control-2-fill:before {

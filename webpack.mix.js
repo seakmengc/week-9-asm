@@ -16,12 +16,7 @@ mix.js("resources/js/app.js", "public/js").sass(
     "public/css"
 );
 
-mix.combine(
-    ["resources/js/main.js", "resources/vendor/*/*.js"],
-    "public/js/combined.js"
-);
-
-mix.combine(
+mix.css(
     [
         "resources/vendor/bootstrap/css/bootstrap.min.css",
         "resources/vendor/icofont/icofont.min.css",
@@ -33,3 +28,16 @@ mix.combine(
     ],
     "public/css/combined.css"
 );
+
+// mix.combine(
+//     [
+//         "resources/vendor/bootstrap/css/bootstrap.min.css",
+//         "resources/vendor/icofont/icofont.min.css",
+//         "resources/vendor/boxicons/css/boxicons.min.css",
+//         "resources/vendor/remixicon/remixicon.css",
+//         "resources/vendor/owl.carousel/assets/owl.carousel.min.css",
+//         "resources/vendor/aos/aos.css",
+//         "resources/css/style.css"
+//     ],
+//     "public/css/combined.css"
+// );
