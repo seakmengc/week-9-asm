@@ -5,15 +5,9 @@
       <h2>Contact</h2>
       <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
     </div>
-<<<<<<< HEAD
 
     <div class="row">
 
-=======
-
-    <div class="row">
-
->>>>>>> b67f407c78bc41ce133501ca88330ddd027c6867
       <div class="col-lg-5 d-flex align-items-stretch">
         <div class="info">
           <div class="address">
@@ -77,44 +71,3 @@
     </div>
 
   </div>
-<<<<<<< HEAD
-</section>
-
-{{-- <script type="text/javascript">
-  $.ajaxSetup({
-      headers: {
-          'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-      }
-  });
-
-  $(".btn-submit").click(function(e){
-      e.preventDefault();
-
-      var email = $("input[name=email]").val();
-      var name = $("input[name=name]").val();
-      var subject = $("input[name=subject]").val();
-      var msg = $("input[name=message]").val();
-
-      $.ajax({
-        type:'POST',
-        url:'/contact-us',
-        data:{email:email, name:name, subject:subject, message:message},
-        success:function(data) {
-          alert(data);
-          $(".loading").style = "";
-          $(".error-message").style = "";
-          $(".sent-message").style = "display: block;";
-        },
-        error: function(data) {
-          let errors = data.responseJSON
-          console.log(errors);
-          $("#error-message").text = errors;
-          $("#error-message").style = "display:block;";
-        }
-      });
-});
-
-</script> --}}
-=======
-</section>
->>>>>>> b67f407c78bc41ce133501ca88330ddd027c6867
